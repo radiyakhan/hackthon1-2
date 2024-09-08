@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    
+  }
+  .mainheading{
+    color: #0d083f;
+    font-size: x-large;
+    text-align: center;
+  }
+  .personal-info h2{
+    color:rgb(197, 119, 30);
+    text-align: center;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black ;
+    padding-bottom: 5px;
+  }
+  .personal-info p{
+    color: #1c0e6d;
+    font-size: large;
+  }
+  .resume {
+    max-width: 800px;
+    margin: 0 auto;
+    background-image: url(https://png.pngtree.com/background/20210710/original/pngtree-business-resume-background-material-picture-image_999584.jpg);
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+
+  }
+  .education h2{
+    color:rgb(197, 119, 30);
+    text-align: center;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black ;
+    padding-bottom: 5px;
+  }
+  .education ul li{
+    list-style-type: none;
+    color: #1c0e6d;
+    font-size: large;
+  }
+
+  #skills h2{
+    color:rgb(197, 119, 30);
+    text-align: center;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black ;
+    padding-bottom: 5px;
+  }
+  #skills ul{
+    list-style-type: none;
+    color: #1c0e6d;
+    font-size: large;
+  }
+  #skills ul li{
+    list-style-type: none;
+    color: #1c0e6d;
+    font-size: large;
+  }
+  .experience h2 {
+    color:rgb(197, 119, 30);
+    text-align: center;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black ;
+    padding-bottom: 5px;
+    
+  }
+  .experience p{
+    color:#1c0e6d;
+    font-size: large;
+  }
+  h2 {
+    border-bottom: 2px solid #495057;
+    padding-bottom: 5px;
+  }
+  img{
+    width:"100px";
+    height: 100px;
+  }  
+  button {
+    display: block;
+    margin: 20px 0;
+    padding: 10px 15px;
+    background-color: #bd7913ab;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin: 0 auto;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #ec8e41;
+  }
+  
+  /* Responsive styling */
+  @media (max-width: 600px) {
+    .resume {
+      padding: 15px;
+    }
+  
+    h2 {
+      font-size: 1.2em;
+    }
+  
+    button {
+      width: 100%;
+      font-size: 1em;
+    }
+  }
+  

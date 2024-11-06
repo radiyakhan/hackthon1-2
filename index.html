@@ -1,52 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Interactive Resume</title>
- <link rel="stylesheet" href="index.css">
-</head>
-<body background="image/p7.jpg">
-    <div class="mainheading"><h1>STATIC RESUME MILESTONE 1</h1> </div>
-  <div class="resume">
-    <!-- Personal Information Section -->
-    <section class="personal-info">
-      <h2>Personal Information</h2>
-      <p><strong>Name:</strong>Radiya Khan</p>
-      <p><strong>Phone Number: </strong>03282864662</p>
-      <p><strong>Email: </strong> radiyakhan59@gmail.com</p>
-     <p><strong>Picture </strong><img src="image/p4.jpg" alt="Profile Picture" > </p>
-    </section>
-
-    <!-- Education Section -->
-    <section class="education">
-      <h2>Education</h2>
-      <ul>
-        <li>SSC in Biology </li>
-        <li>HSC in Commerce</li>
-        <li>IT course</li>
-      </ul>
-    </section>
-
-    <!-- Skills Section -->
-    <section id="skills">
-      <h2>Skills</h2>
-      <ul>
-        <li>HTML, CSS</li>
-        <li>TypeScript</li>
-      </ul>
-    </section>
-
-    <!-- Work Experience Section -->
-    <section class="experience">
-      <h2>Work Experience</h2>
-      <p>Not Yet</p>
-    </section>
-
-    <!-- Button to toggle skills section visibility -->
-    <button id="toggle-skills">Toggle Skills</button>
-  </div>
-
-  <script src="index.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="box">
+      <div class="main">
+        <div class="name">
+          <h1>Radiya Khan</h1>
+          <h5>Frontend Web Developer</h5>
+          <p>
+            Radiya khan, 19-year-old. Recently I complete my second year with
+            commerce. Now I learning skills by enrolling in GIAIC IT course.
+            This exciting journey has equipped me with a solid foundation in web
+            development, including HTML, CSS, TypeScript, and JavaScript.
+            Currently, Im diving deeper into Next.js to create seamless and
+            scalable web applications.Through GIAIC program, Ive gained valuable
+            insights and expertise that have opened doors to new opportunities.
+            Im eager to continue learning, exploring, and adapting to the
+            ever-evolving tech landscape. With each new skill and experience, Im
+            confident in my ability to make a meaningful impact in the digital
+            world.
+          </p>
+        </div>
+        <div>
+          <img src="image/p4.jpg" alt="my pic" />
+        </div>
+      </div>
+        <div class="info">
+          <div>
+            <h1>Profile</h1>
+            <p
+              >Radiya khan, 19-year-old. Recently I complete my second year with
+              commerce. Now I learning skills by enrolling in GIAIC IT course.
+              This exciting journey has equipped me with a solid foundation in
+              web development, including HTML, CSS, TypeScript, and JavaScript.
+              Currently, Im diving deeper into Next.js to create seamless and
+              scalable web applications.Through GIAIC program, Ive gained
+              valuable insights and expertise that have opened doors to new
+              opportunities. Im eager to continue learning, exploring, and
+              adapting to the ever-evolving tech landscape. With each new skill
+              and experience, Im confident in my ability to make a meaningful
+              impact in the digital world.
+            </p>
+          </div>
+          <div>
+            <h1>Education/Learning</h1>
+            <h6>
+              2020-2022 <br />MATRICULATION(Biology) <br /><br />
+              2022-2024 INTERMEDIATE(Commerce) <br /><br />
+              2024-Present <br />
+              IT Course from GIAIC
+            </h6>
+          </div>
+        </div>
+        <div class="persnl">
+          <div class="personal">
+            <h1>Personal information</h1>
+            <h6>Father name: Shahzad Khan <br>
+              Age: 19 <br>
+              Date of birth: April 3rd, 2005 <br>
+              Gender: Female <br>
+              City: Karachi <br>
+              Nationality: Pakistani <br>
+              Province: Sindh <br>
+              Marital Status: Single
+            </h6>
+            </div>
+            <div class="skill" id="skill">
+              <h1>Skills</h1>
+              <h6>
+                Ms Word <br>
+                HTML <br>
+                CSS <br>
+                TypeScript <br>
+                Next Js <br>
+                Tailwaind CSS
+              </h6>
+            </div>
+        </div>
+        <div>
+          <div class="contact">
+            <h1>Contact</h1>
+            <h6>
+              radiyakhan59@gmail.com <br><br>
+              0328-2864662
+            </h6>
+            </div>
+            <button class="btn" id="btn">Toggle Skills</button>
+        </div>
+        
+        <script src="index.js"></script>
+    </div>
+  </body>
 </html>

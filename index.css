@@ -1,113 +1,230 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 20px;
-    
-  }
-  .mainheading{
-    color: #0d083f;
-    font-size: x-large;
-    text-align: center;
-  }
-  .personal-info h2{
-    color:rgb(197, 119, 30);
-    text-align: center;
-    border-bottom: 2px solid black;
-    border-top: 2px solid black ;
-    padding-bottom: 5px;
-  }
-  .personal-info p{
-    color: #1c0e6d;
-    font-size: large;
-  }
-  .resume {
-    max-width: 800px;
-    margin: 0 auto;
-    background-image: url(https://png.pngtree.com/background/20210710/original/pngtree-business-resume-background-material-picture-image_999584.jpg);
-    padding: 20px;
-    border-radius: 8px;
-    text-align: center;
+  padding: 0;
+  margin: 0;
+}
+.box {
+  border-color: #1a1a1a;
+  border-width: 400px;
+  align-content: center;
+  border-radius: 1px;
+  border: 1px solid black;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 900px;
+}
+.main {
+  margin-top: -40px;
+  background-color: rgba(255, 192, 203, 0.356);
+  width: 950px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
-  }
-  .education h2{
-    color:rgb(197, 119, 30);
-    text-align: center;
-    border-bottom: 2px solid black;
-    border-top: 2px solid black ;
-    padding-bottom: 5px;
-  }
-  .education ul li{
-    list-style-type: none;
-    color: #1c0e6d;
-    font-size: large;
-  }
-
-  #skills h2{
-    color:rgb(197, 119, 30);
-    text-align: center;
-    border-bottom: 2px solid black;
-    border-top: 2px solid black ;
-    padding-bottom: 5px;
-  }
-  #skills ul{
-    list-style-type: none;
-    color: #1c0e6d;
-    font-size: large;
-  }
-  #skills ul li{
-    list-style-type: none;
-    color: #1c0e6d;
-    font-size: large;
-  }
-  .experience h2 {
-    color:rgb(197, 119, 30);
-    text-align: center;
-    border-bottom: 2px solid black;
-    border-top: 2px solid black ;
-    padding-bottom: 5px;
-    
-  }
-  .experience p{
-    color:#1c0e6d;
-    font-size: large;
-  }
-  h2 {
-    border-bottom: 2px solid #495057;
-    padding-bottom: 5px;
-  }
-  img{
-    width:"100px";
-    height: 100px;
-  }  
-  button {
-    display: block;
-    margin: 20px 0;
+img {
+  border-radius: 190px;
+  width: 180px;
+  height: 180px;
+  margin-left: 700px;
+  padding: 30px;
+}
+.name h1 {
+  position: absolute;
+  width: 200px;
+  height: 29px;
+  margin-left: 30px;
+  margin-top: 20px;
+  font-family: serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 19px;
+  align-items: center;
+  color: rgb(241, 124, 144);
+}
+.name h5 {
+  position: absolute;
+  width: 170px;
+  height: 15px;
+  margin-left: 30px;
+  margin-top: 50px;
+  font-family: "Inter";
+  font-style: italic;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 15px;
+  align-items: center;
+  color: #1a1a1a;
+}
+.name p {
+  position: absolute;
+  width: 700px;
+  height: 15px;
+  margin-left: 20px;
+  margin-top: 75px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 15px;
+  align-items: center;
+  color: rgb(247, 90, 117);
+}
+.info p {
+  position: absolute;
+  width: 450px;
+  height: 15px;
+  margin-left: 30px;
+  margin-top: 80px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 15px;
+  align-items: center;
+}
+.info {
+  display: flex;
+  gap: 570px;
+}
+.info h1 {
+  position: absolute;
+  width: 200px;
+  height: 29px;
+  margin-left: 30px;
+  margin-top: 50px;
+  font-family: serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 19px;
+  align-items: center;
+  color: rgb(241, 124, 144);
+}
+.info h6 {
+  position: absolute;
+  width: 170px;
+  height: 14px;
+  margin-left: 30px;
+  margin-top: 80px;
+  font-family: serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 15px;
+  align-items: center;
+  color: #1a1a1a;
+}
+.personal h1 {
+  position: absolute;
+  height: 29px;
+  margin-left: 30px;
+  margin-top: 300px;
+  font-family: serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 19px;
+  align-items: center;
+  color: rgb(241, 124, 144);
+}
+.personal h6 {
+  position: absolute;
+  width: 190px;
+  height: 14px;
+  margin-left: 30px;
+  margin-top: 330px;
+  font-family: serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 15px;
+  align-items: center;
+  color: #1a1a1a;
+}
+.persnl{
+  display: flex;
+  gap: 570px;
+}
+.skill h1 {
+  position: absolute;
+  height: 29px;
+  margin-left: 30px;
+  margin-top: 300px;
+  font-family: serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 19px;
+  align-items: center;
+  color: rgb(241, 124, 144);
+}
+.skill h6 {
+  position: absolute;
+  width: 190px;
+  height: 14px;
+  margin-left: 30px;
+  margin-top: 330px;
+  font-family: serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 15px;
+  align-items: center;
+  color: #1a1a1a;
+}
+.contact h1 {
+  position: absolute;
+  height: 29px;
+  margin-left: 30px;
+  margin-top: 30px;
+  font-family: serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 19px;
+  align-items: center;
+  color: rgb(241, 124, 144);
+}
+.contact h6 {
+  position: absolute;
+  width: 190px;
+  height: 14px;
+  margin-left: 30px;
+  margin-top: 65px;
+  font-family: serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 15px;
+  align-items: center;
+  color: #1a1a1a;
+}
+button{
+  display: block;
     padding: 10px 15px;
-    background-color: #bd7913ab;
-    color: white;
+    background-color: rgb(247, 148, 165);
+    color: black;
     border: none;
     border-radius: 5px;
-    margin: 0 auto;
     cursor: pointer;
+    /* margin-top: 450px;
+    margin-left: 600px; */
+    margin-top: 450px;
+}
+button:hover{
+  background-color: rgb(243, 114, 136);
+}
+.btn{
+
+  margin-left: 600px;
+}
+
+@media only screen and (max-width: 600px){
+  .box{
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 1500px;
   }
-  
-  button:hover {
-    background-color: #ec8e41;
-  }
-  
-  /* Responsive styling */
-  @media (max-width: 600px) {
-    .resume {
-      padding: 15px;
-    }
-  
-    h2 {
-      font-size: 1.2em;
-    }
-  
-    button {
-      width: 100%;
-      font-size: 1em;
-    }
-  }
-  
+}
